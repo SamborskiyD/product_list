@@ -1,0 +1,18 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+
+    .label {
+        font-size: 16px;
+    }
+
+    .input {
+        border: 2px solid rgb(184, 86, 223);
+        border-radius: 6px;
+        padding: 4px 8px;
+        outline: none;
+        max-width: 200px;
+    }
+}

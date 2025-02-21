@@ -1,0 +1,29 @@
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.cardList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    
+}
