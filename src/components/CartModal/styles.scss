@@ -97,3 +97,9 @@
     cursor: pointer;
     font-size: 14px;
   }
+
+  @media (max-width: 525px) {
+    .modal-content {
+        max-width: 90%;
+    }
+}

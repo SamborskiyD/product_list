@@ -21,7 +21,7 @@
       list-style: none;
       padding: 10px;
       margin: 0;
-      width: 200px;
+      width: 120px;
       opacity: 0;
       border-radius: 10px;
       transform: translateY(-10px);
@@ -29,6 +29,12 @@
       pointer-events: none;
       z-index: 10;
     }
+
+    @media (max-width: 425px) {
+      .menu {
+          left: 0;
+      }
+  }
   
     .menu.open {
       opacity: 1;
