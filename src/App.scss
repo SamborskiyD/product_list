@@ -11,6 +11,8 @@
 .navbar {
     display: flex;
     align-items: end;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-between;
 }
 
@@ -25,5 +27,5 @@
 .buttons {
     display: flex;
     gap: 10px;
-    
+
 }
